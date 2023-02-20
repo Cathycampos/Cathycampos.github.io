@@ -1,0 +1,80 @@
+
+
+* {
+    font-family: 'Mynerve', cursive;
+}
+
+h1 {
+    font-size: 100px;
+    color: yellow;
+}
+
+h2 {
+    font-size: 50px;
+    color: yellow;
+}
+
+ol {
+    font-size: 50px;
+}
+
+
+
+body {
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1625509976131-86d1ba268e09?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGlyYXRlJTIwc2hpcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: lighten;
+}
+
+table {
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background-color: beige;
+    opacity: 0.5;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    table-layout: fixed;
+
+}
+
+ol {
+    border-width: 4px;
+    border-color: goldenrod;
+    border-style: inset;
+    background-color: bisque;
+}
+
+
+/* .game-rules {
+    display: flex;
+    justify-content: center; */
+/* } */
+
+
+@keyframes bounceIn {
+    0% {
+        transform: scaleX(0.5);
+        opacity: 0;
+    }
+    50% {
+        transform: scaleX(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scaleX(0.7);
+    }
+}
+
+img {
+    animation: bounceIn 3s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
