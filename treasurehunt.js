@@ -5,7 +5,7 @@ var gameLose = Math.floor(Math.random() * 8)
 
 if(gameWin === gameLose) {
     var gameWin = Math.floor(Math.random() * 8)
-    var gameLose = Math.floor(Math.random() * 8)   
+    var gameLose = Math.floor(Math.random() * 8)
 }
 
 
